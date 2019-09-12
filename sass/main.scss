@@ -1,0 +1,9 @@
+//Imports go first -> grab _vars and any other partials 
+@import'_vars';
+@import'modules/navbar';
+
+
+
+body { background-color: $global-bg;}
+
+h1, h2, h3 {color: $heading-color}
