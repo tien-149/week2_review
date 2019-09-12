@@ -4,6 +4,24 @@
 
 
 
-body { background-color: $global-bg;}
+body { 
+    background-color: $main-bg;
+}
 
-h1, h2, h3 {color: $heading-color}
+h1, h2, h3 {color: $heading-color;}
+.panel{min-height: 80vh;}
+
+.panel:nth-child(even){
+    background-color: salmon;
+    color: $main-color;
+}
+
+#to_top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+}
+
+@import 'modules/_footer';
+//import media queries here
