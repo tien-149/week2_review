@@ -4,21 +4,14 @@
 
 
 
-body { background-color: $global-bg;}
-
-h1, h2, h3 {color: $heading-color}
-panel { height: 80vh; }
-
-.panel:nth-child(even) {
-    background-color: salmon;
-    color: white;
+body { 
+    background-color: $main-bg;
 }
 
-#to-top {
+
     position: fixed;
     bottom: 10px;
     right: 10px;
     display: none;
 }
 
-@import "modules/_footer"
