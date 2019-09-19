@@ -6,7 +6,7 @@
 const Team = {
     Trevor : {
         name: "Trevor",
-        bio: "I don't know where i am... can you please take me home",
+        bio: "THe sad story of my life",
         role: "Professor",
         avatar: "olaf.jpeg"
     },
