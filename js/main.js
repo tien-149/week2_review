@@ -9,10 +9,13 @@ import Team from "./modules/DataObject.js";
     const bioInfo = document.querySelector('.bio-wrapper').children;
 
     function showProfData() {
+       
         // change data on the page here
-
+        
         // this is the label on the active button (the name) - whichever team button we click
         let currentProf = this.textContent;
+        //This . sth that means create the button with the name on it.
+
 
         // this refers to the heading tag (the first child of the bio-wrapper div)
         // we change the text content using the Team object, 
@@ -31,6 +34,7 @@ import Team from "./modules/DataObject.js";
         // this syntax would work too:
         // bioInfo[3].src = "images/" + Team.avatar;
     }
+
 
     // for... in is kinda like a forEach loop, but it doesn't have an index
     // It iterates through all of the properties of an object (see MDN -> looping through objects for more)
